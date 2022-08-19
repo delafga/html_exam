@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ITA7-TW | Semantic HTML Basics</title>
+  </head>
+
+  <body>
+	<header>
+		<h2>Unified Modeling Language Theory Test</h2>
+		<pre class="tab"><table>
+		  <tr>
+			<td>Test Subject: Unified Modeling Language</td>
+			<td>    Time:     100 minutes</td>
+			<td>Score:   100</td>
+		  </tr>
+		  <tr>
+			<td>Class:        <select name="class" id="class">
+				  <option value="class1">Class 1</option>
+				  <option value="class2">Class 2</option>
+				  <option value="class3">Class 3</option></select></td>
+			<td>    Student ID:  <input type="number" name="studentid" value="001">  </td>
+			<td>Name:   <input type="text" name="class" value="Darcy"></td>
+		  </tr>
+		</table></pre><br>
+	</header>
+	
+	<main>
+		<form action="/echo" method="POST">
+			<dl><!-- Question 1 -->
+				<dt><h2>1. Fill in the blanks (5 points per space, 20 points total)</h2></dt>
+				<dd>
+					<ol type="1">
+						<li>The full name of UML in Chinese is: <input type="text" name="1a" value="Unified Modeling Language"></li>
+						<li>The most prominent feature of the object is: <input type="text" name="1ba" value="Encapsulation"> <input type="text" name="1bb" value="Inheritance"> <input type="text" name="1bc" value="Polymorphism"></li>
+					</ol>
+				</dd>
+			</dl>
+			
+			<dl><!-- Question 2 -->
+				<dt><h2>2. Multiple choice question (10 points per space, 20 points total)</h2></dt>
+				<dd>
+					<ol type="1">
+						<li>The relationship between UML and software engineering is:
+							<p>
+								<input type="radio" id = "2aa" value="2aa" name="2a"><label for="2a">(A) UML is software engineering</label><br>
+								<input type="radio" id = "2ab" value="2ab" name="2a" checked><label for="2a">(B) UML participates in several stages of the software development process in software engineering</label><br>
+								<input type="radio" id = "2ac" value="2ac" name="2a"><label for="2a">(C) UML has nothing to do with software engineering</label><br>
+								<input type="radio" id = "2ad" value="2ad" name="2a"><label for="2a">(D) UML is part of software engineering</label><br>
+							</p>
+						</li>
+						<li>Java language support:
+							<p>
+								<input type="radio" id = "2ba" value="2ba" name="2b" checked><label for="2b">(A) Single inheritance</label><br>
+								<input type="radio" id = "2bb" value="2bb" name="2b"><label for="2b">(B) Multiple inheritance</label><br>
+								<input type="radio" id = "2bc" value="2bc" name="2b"><label for="2b">(C) Singe inheritance and multiple inheritance support</label><br>
+								<input type="radio" id = "2bd" value="2bd" name="2b"><label for="2b">(D) Singe inheritance and multiple inheritance are not supported</label><br>
+							</p>
+						</li>
+					</ol>
+				</dd>
+			</dl>
+			
+			<dl><!-- Question 3 -->
+				<dt><h2>3. Multiple choice (10 points per space, 20 points total)</h2></dt>
+				<dd>
+					<ol type="1">
+						<li>The granularity of the use case is divided into the following three:
+							<p>
+								<input type="checkbox" id = "3aa" value="3aa" name="3aa" checked><label for="3aa">(A) Overview level</label><br>
+								<input type="checkbox" id = "3ab" value="3ab" name="3ab" checked><label for="3ab">(B) Demand level</label><br>
+								<input type="checkbox" id = "3ac" value="3ac" name="3ac"><label for="3ac">(C) User target level</label><br>
+								<input type="checkbox" id = "3ad" value="3ad" name="3ad" checked><label for="3ad">(D) Sub-function level</label><br>
+							</p>
+						</li>
+						<li>The class diagram consists of which of the following three parts: 
+							<p>
+								<input type="checkbox" id = "3ba" value="3ba" name="3ba" checked><label for="3ba">(A) Name</label><br>
+								<input type="checkbox" id = "3bb" value="3bb" name="3bb" checked><label for="3bb">(B) Attribute</label><br>
+								<input type="checkbox" id = "3bc" value="3bc" name="3bc" checked><label for="3bc">(C) Operation</label><br>
+								<input type="checkbox" id = "3bd" value="3bd" name="3bd"><label for="3bd">(D) Function</label><br>
+							</p>
+						</li>
+					</ol>
+				</dd>
+			</dl>
+			
+			<dl><!-- Question 4 -->
+				<dt><h2>4. True or False(10 points per space, 20 points total)</h2></dt>
+				<dd>
+					<ol type="1">
+						<li>Use case diagrams are only used to communicate and communicate with customers to determine demand. <input type="radio" id = "4aa" value="4aa" name="4a"><label for="4aa">✓</label> <input type="radio" id = "4ab" value="4ab" name="4a" checked><label for="4ab">✕</label>
+						</li>
+						<li>In the state diagram, the termination state allows any number of multiples in a state diagram.<input type="radio" id = "4ba" value="4ba" name="4b"><label for="4ba" checked>✓</label> <input type="radio" id = "4bb" value="4bb" name="4b"><label for="4bb">✕</label>
+						</li>
+					</ol>
+				</dd>
+			</dl>
+			
+			<dl><!-- Question 5 -->
+				<dt><h2>5. Short answer question (20 points per space, 20 points total)</h2></dt>
+				<dd>
+					<ol type="1">
+						<li>Briefly describe what the model is and how it behaves?
+						<p><textarea id="5a" name="5a" rows="10" cols="59">A model is a simplification and abstraction of the real world. A model is an expression of the system, process, thing or concept of research. Can be a physical entity; can be a certain graphic; or a mathematical expression. </textarea></p>
+						</li>
+					</ol>
+				</dd>
+			</dl>
+			
+			<!-- End, submit button here -->
+			<p><br><button type="submit">Calculating score</button></p>
+		</form>
+	</main>
+  </body>
+</html>
